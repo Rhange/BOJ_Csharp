@@ -2,9 +2,9 @@
 {
     public static class P1000
     {
-        public static int add(int a, int b)
+        public static byte Add(byte a, byte b)
         {
-            return a + b;
+            return (byte)(a + b);
         }
     }
 }
